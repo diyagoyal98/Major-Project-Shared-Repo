@@ -140,6 +140,8 @@ section
 {
     width: 100%;
     height: auto;
+    animation: biani 4.5s linear infinite alternate;
+        box-shadow: 0 0px 20px rgba(36, 39, 37, 0.3);
 }
 
 .home-text h1
@@ -311,6 +313,7 @@ header.sticky
     padding: 10px 35px 40px;
     background: var(--other-color);
     border-radius: 3rem;
+    /* height: 369px; */
 }
 
 .row img
@@ -567,3 +570,36 @@ header.sticky
     border-radius: 2rem;   
 }
 
+
+
+/* .banner-img-wp {
+    width: 50%;
+    height: 10%;
+    padding-left: 30px;
+}
+
+.banner-img-wp img
+{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        animation: biani 4.5s linear infinite alternate;
+        box-shadow: 0 0px 20px rgba(36, 39, 37, 0.3);
+} */
+
+
+@keyframes biani {
+    0% {
+        border-radius: 48% 52% 57% 43% / 34% 44% 56% 66%;
+    }
+    25% {
+        border-radius: 62% 38% 64% 36% / 34% 55% 45% 66%;
+    }
+    50% {
+        border-radius: 43% 57% 51% 49% / 33% 42% 58% 67%;
+    }
+    100% {
+        border-radius: 40% 60% 43% 57% / 52% 32% 68% 48%;
+    }
+}
