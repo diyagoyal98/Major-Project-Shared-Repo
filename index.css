@@ -558,7 +558,7 @@ header.sticky
     position: fixed;
     bottom: 2.2rem;
     border-top: 2rem;
-    right: 3.2rem;   
+    left: 3.2rem;   
 }
 
 .scroll i
